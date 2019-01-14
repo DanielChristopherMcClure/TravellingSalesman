@@ -1,0 +1,260 @@
+html {
+  font-family: Minion;
+}
+
+#tripco {
+  min-width: 350px
+}
+
+.csu-bg{
+background: #1E4D2B;
+color: white;
+}
+
+.csu-bg-only{
+background: #1E4D2B;
+padding: 5px;
+}
+.norm{
+color: black;
+}
+.btn-csu{
+background: #C8C372;
+border: 1px;
+border-style: solid;
+border-color: #1E4D2B;
+color: #1E4D2B;
+font-weight: bold;
+}
+
+.btn{
+  border-radius: 4px;
+}
+
+.btn-csu:hover, btn-csu:enabled{
+background: #fff;
+color: #1E4D2B;
+border-style: solid;
+border-color: #1E4D2B;
+
+}
+.btn-csu:disabled{
+background: #C8C372;
+border: 1px;
+border-style: solid;
+border-color: #1E4D2B;
+color: #1E4D2B;
+}
+
+.form-control:focus, textarea:focus{
+
+    box-shadow: 0 0 5px rgba(200, 195, 114, 1);
+
+    border: 1px solid rgba(200, 195, 114, 1);
+
+}
+
+.btn-csu:focus, btn-csu:active{
+    outline: none !important;
+    box-shadow: none;
+}
+
+.staff_icons{
+  margin-right: 10px;
+  height:40px;
+  min-width: 40px;
+  background: none;
+  border: none;
+  color: #1E4D2B;
+}
+
+.staff_icons:hover{
+  color: #d9782d;
+}
+
+.btn-csu-icons{
+  height:40px;
+  min-width: 40px;
+}
+
+.btn-csu-icons:focus{
+  outline: none !important;
+  box-shadow: 0 !important;
+}
+
+.right{
+align: right;
+}
+
+.card-header {
+  border-top-right-radius: 4px !important;
+  border-top-left-radius: 4px !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn-csu-active{
+background: #1E4D2B;
+border: 1px;
+border-style: solid;
+border-color: #1E4D2B;
+color: #ffffff;
+}
+.head-csu{
+    height: 125px;
+}
+
+.right{
+position: relative;
+float: right;
+}
+.foot{
+background: #1E4D2B;
+width: 100%;
+left: 0;
+bottom: 0;
+padding: 10px;
+}
+
+thead {
+  background-color: #59595B;
+}
+
+.card{
+  border: 0;
+}
+.react-tabs__tab:focus,react-tabs__tab:hover {
+ box-shadow: 0 0 5px rgba(200, 195, 114, 1);
+
+    border: 1px #aaa solid;
+    border-bottom: none;
+    }
+.react-tabs__tab-panel--selected {
+  border: 1px #aaa solid;
+  border-top: none;
+  padding: 10px;
+}
+
+.react-tabs__tab {
+  border-bottom: 1px #aaa solid;
+  height: 41px;
+}
+.react-tabs__tab--selected{
+  border-bottom: none;
+}
+
+.react-tabs__tab-list {
+  border-bottom: none;
+}
+
+.fa {
+  line-height: 1.25;
+}
+
+h5 {
+  line-height: 1.15;
+}
+
+.font-awesome-label-load {
+  height:40px;
+  width: 40px;
+}
+
+.font-awesome-label-load::before {
+  font-family: "Font Awesome 5 Free";   content: "\f093";
+}
+
+.font-awesome-label-save {
+  height:40px;
+  width: 40px;
+}
+
+.font-awesome-label-save::before {
+  font-family: "Font Awesome 5 Free";   content: "\f019";
+}
+
+.Select.is-focused:not(.is-open) > .Select-control {
+    border-color: #C8C372;
+    box-shadow: 0 0 0 3px rgba(200, 195, 114, 0.5);
+    background: #fff;
+}
+.Select-clear-zone:hover {
+    color: #C8C372;
+}
+.Select-option.is-selected {
+
+    /* Fallback color for IE 8 */
+    background-color: rgba(0, 126, 255, 0.04);
+    background-color: #C8C372;
+    color: #333;
+}
+.Select-option.is-focused {
+
+    /* Fallback color for IE 8 */
+    background-color: rgba(0, 126, 255, 0.08);
+    background-color: #C8C372;
+    color: #333;
+}
+
+.Select--multi .Select-value {
+
+    /* Fallback color for IE 8 */
+    background-color: rgba(0, 126, 255, 0.08);
+    background-color: #C8C372;
+    border-radius: 2px;
+
+    /* Fallback color for IE 8 */
+    border: 1px solid rgba(0, 126, 255, 0.24);
+    border: 1px solid #1E4D2B;
+    color: #1E4D2B;
+    display: inline-block;
+    font-size: 0.9em;
+    line-height: 1.4;
+    margin-left: 5px;
+    margin-top: 5px;
+    vertical-align: top;
+}
+
+.Select--multi a.Select-value-label {
+    color: #C8C372;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.Select--multi .Select-value-icon:hover,
+.Select--multi .Select-value-icon:focus {
+
+    /* Fallback color for IE 8 */
+    background-color: rgba(0, 113, 230, 0.08);
+    background-color: #C8C372;
+    color: #C8C372;
+}
+.Select--multi .Select-value-icon:active {
+
+    /* Fallback color for IE 8 */
+    background-color: rgba(0, 126, 255, 0.24);
+    background-color: #C8C372;
+}
+
+.Select--multi.Select--rtl .Select-value-icon {
+    border-right: none;
+
+    /* Fallback color for IE 8 */
+    border-left: 1px solid rgba(0, 126, 255, 0.24);
+    border-left: 1px solid #C8C372;
+}
+.ram-slider {
+    background: url('../etc/CSU-Ram-357.png');
+    cursor: pointer;
+    box-shadow: none;
+}
+.ram-slider::-moz-range-thumb {
+    background: url('../etc/CSU-Ram-357.png');
+    cursor: pointer;
+    height: 26px;
+    width: 26px;
+    border-radius: 13px;
+     background-size:26px;
+                 background-repeat: no-repeat;
+                 background-position: 50%;
+}
