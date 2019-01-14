@@ -1,0 +1,12 @@
+{
+  "type"      : "trip",
+  "title"     : "My Trip",
+  "options"   : {"distance":"miles", "optimization":"none"},
+  "places"    : [
+					{"id":"dnvr", "name":"Denver",       "latitude":"39.7392", "longitude":"104.9903"},
+					{"id":"bldr", "name":"Boulder",      "latitude":"40.0149900", "longitude":"105.2705500"},
+					{"id":"foco", "name":"Fort Collins", "latitude":"40", "longitude":"105"}
+				],
+  "distances" : [29,58,65],
+  "map"       : "<svg> .?. </svg>"
+}

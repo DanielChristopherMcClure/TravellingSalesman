@@ -1,2 +1,5 @@
-# TravellingSalesman
-Travelling salesman webapp for cs314 at CSU
+t02-Bravo Coders
+* Sean Thunquest, sgthun, sgthun
+* Joseph Salzano, jsalzano, jsalzano92
+* Daniel McClure, mcclured, DanielChristopherMcClure
+* John Carter, jbcarter, jbcartercsu
